@@ -1,0 +1,13 @@
+{
+    "servers": {
+        "search-mcp": {
+            "command": "node",
+            "type": "stdio",
+            "cwd": "${workspaceFolder}",
+            "args": [
+                "./build/index.js"
+            ],
+            "env": {}
+        }
+    }
+}
